@@ -24,23 +24,22 @@ export default function Home() {
           <div className="2xl:px-20 w-full  flex flex-col items-start justify-center ">
         
           <Button className=" bg-[#3D75DB] text-white text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 ">
-            <Link href="https://pagamento.escolaconquer.com.br/CW-30102024105512907CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">
+            <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
               Quero assinar o Mondly! </Link></Button>        
       </div>
         
         </div>
 
-      <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6 py-16">
+      <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full  py-3">
       
-        <p className="text-text-a text-3xl font-bold">São mais de 80 habilidades
-        disponíveis! Descubra o poder das
-        soft e hard skills na sua carreira.</p>
-      </div> 
-              
-      <div className="2xl:px-20 px-10 w-full  mt-14 flex flex-wrap items-center justify-center 2xl:gap-32">     
-        <div className="flex items-center justify-center"><Image src="/itauuniclass/minhasvantagens/conquerplus/images/cellpho.png" alt="telefone" width={415} height={488}/></div>
+        <p className="text-text-a text-[22px] font-normal">Fale um novo idioma com apenas 5 minutos por dia!</p>
+      </div>               
+      <div className="2xl:px-20 px-10 w-full flex flex-wrap items-center justify-center 2xl:gap-32 py-6">     
+        <div className="flex items-center justify-center">
+          <Image src="/images/celular.png" alt="telefone" width={444} height={518} /></div>
         <div className="flex items-center justify-center 2xl:w-[261px] xl:w-[261px] w-auto">
-          <p className="text-text-a text-[29px]  leading-7 font-normal text-start">Atualize o seu aprendizado e esteja por dentro do que está em alta.</p>
+          <p className="text-text-a text-[17px]  leading-7 font-normal text-start mt-6">
+            Clientes Itaú têm acesso a um desconto exclusivo noMondly by Pearson. Agora você pode aprender inglês,espanhol, francês e muitos outros idiomas com lições rápidas, interativas e acessíveis.</p>
         </div>     
         
       </div>
