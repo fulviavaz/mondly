@@ -89,14 +89,34 @@ Estude no smartphone, tablet ou desktop, de onde estiver e a qualquer hora do di
 
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
-        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
-          <Link href="https://pagamento.escolaconquer.com.br/CW-30102024105512907CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Comece agora </Link></Button>        
+          <Button className=" bg-[#3D75DB] text-white text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12  mt-6">
+            <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
+              Quero assinar o Mondly!
+
+ </Link></Button>    
       </div>
 
-      <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
+      <div className="2xl:px-20 px-10 w-full mb-4 flex flex-wrap items-center justify-center gap-4">
+        <Image src="/images/video-mobile.png" alt="video" width={328} height={437} />
+        <Image src="/images/bandeiras-mobile.png" alt="bandeiras" width={313} height={320} />
+      </div>
+
+        <div className="2xl:px-20 px-10 w-full  2xl:mt-14 mt-4 flex flex-col items-start justify-center ">
+        <p className=" text-[22px] font-bold text-[#2B2B2B]">Comece a aprender hoje mesmo com desconto exclusivo Itaú!</p>
+        <p className=" text-[18px] leading-7 font-normal text-start mt-6 text-black">
+          Não perca essa oportunidade de transformar seu aprendizado de idiomas. Tenha acesso amais de 40 idiomas e aprenda no seu ritmo, de forma prática e divertida.
+        </p>
+        
+              <Button className=" bg-[#3D75DB] text-white text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12  mt-6 mb-4">
+            <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
+            Assinar e começar agora! </Link></Button>  
+          <Image src="/images/tels-mobile.png" alt="bandeiras" width={293} height={265} />
+      </div>
+
+      <footer className="flex-wrap flex  items-center justify-center gap-4 w-full bg-black py-8 2xl:px-20 px-10">
         <p className="text-white text-sm ">Powered by</p>
-        <Image src="/itauuniclass/minhasvantagens/conquerplus/images/indico.png" alt="logo itau" width={81} height={25} />
-        <p className="text-white text-[8px] 2xl:text-xs ">CAOS SISTEMAS DINÂMICOS E COMPLEXOS LTDA - Brasil - CNPJ 05.934.733/0001-17</p>
+        <Image src="/images/indico.png" alt="logo indico" width={81} height={25} />
+        <p className="text-white text-[8px] 2xl:text-xs text-center">CAOS SISTEMAS DINÂMICOS E COMPLEXOS LTDA - Brasil - CNPJ 05.934.733/0001-17</p>
       </footer>
     
     </main>
