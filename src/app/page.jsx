@@ -7,21 +7,27 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
-      <nav className="flex items-center justify-between w-full bg-black py-4 2xl:px-20 px-10">
-        <Image src="/itauuniclass/minhasvantagens/conquerplus/images/itau.png" alt="logo itau" width={44} height={44} />
-        <Image src="/itauuniclass/minhasvantagens/conquerplus/images/conquer-plus.png" alt="logo conquer" width={136} height={42}/>
+      <nav className="flex items-center justify-between w-full bg-white py-4 2xl:px-20 px-10">
+        <Image src="/images/logo-itau.png" alt="logo itau" width={79} height={73} />
+        <Image src="/images/mondly-logo.png" alt="logo mondly" width={113} height={40}/>
       </nav>
       {/* hero */}
       
-        <div className="flex flex-wrap-reverse gap-10 items-center justify-between w-full bg-[#0131FF] py-24 2xl:px-30 xl:px-40 lg:px-30 px-10">
-        <div className="2xl:w-[500px] xl:w-[500px] lg:w-[500px] flex flex-col">
-          <h1 className="text-white 2xl:text-4xl xl:text-4xl lg:text-4xl text-2xl font-bold ">Conquer e Uniclass<br/>
-            Uma parceria para<br/> investir no seu futuro</h1>
-          <p className="text-lg font-semibold text-white mt-10">Aproveite os descontos exclusivos minhas vantagens!</p>
-        </div>
+      <div className="flex flex-wrap gap-5 items-center justify-between w-full bg-white py-1 2xl:px-30 xl:px-40 lg:px-30 px-10">
         <div>
-          <Image src="/itauuniclass/minhasvantagens/conquerplus/images/cplus.png" alt="hero" width={630} height={323} />
+          <Image src="/images/hero-mobile.png" alt="hero" width={328} height={437} />
         </div>
+        <div className="2xl:w-[500px] xl:w-[500px] lg:w-[500px] flex flex-col">
+            <p className="text-[22px] font-normal text-black ">Exclusivo para clientes Minhas Vantagens Itaú</p>
+          <h1 className="text-black 2xl:text-4xl xl:text-4xl lg:text-4xl text-[28px] font-bold mt-2">Aprenda mais de 40 idiomas por menos de R$0,30 ao dia!</h1>        
+        </div>  
+          <div className="2xl:px-20 w-full  flex flex-col items-start justify-center ">
+        
+          <Button className=" bg-[#3D75DB] text-white text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 ">
+            <Link href="https://pagamento.escolaconquer.com.br/CW-30102024105512907CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">
+              Quero assinar o Mondly! </Link></Button>        
+      </div>
+        
         </div>
 
       <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6 py-16">
