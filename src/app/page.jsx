@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <><main className="flex flex-col items-center justify-between px-10 xl:px-56 2xl:px-[340px] lg:px-24 max-w-[1538px] mx-auto">
+    <><main className="flex flex-col items-center justify-between px-10 xl:px-56 2xl:px-[350px] lg:px-24 max-w-[1538px] mx-auto">
 
       <nav className="flex items-center justify-between w-full bg-white py-4">
         <Image src="/images/logo-itau.png" alt="logo itau" width={79} height={73} />
