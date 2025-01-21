@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <><main className="flex flex-col items-center justify-between px-10 xl:px-56 2xl:px-[340px] max-w-[1538px] mx-auto">
+    <><main className="flex flex-col items-center justify-between px-10 xl:px-56 2xl:px-[340px] lg:px-24 max-w-[1538px] mx-auto">
 
       <nav className="flex items-center justify-between w-full bg-white py-4">
         <Image src="/images/logo-itau.png" alt="logo itau" width={79} height={73} />
@@ -49,12 +49,12 @@ export default function Home() {
 
       <div className=" flex-wrap flex items-start justify-start w-full py-5">
 
-        <p className="text-text-a text-[22px] 2xl:text-[28px] xl:text-[28px] font-bold">Fale um novo idioma com apenas 5 minutos por dia!</p>
+        <p className="text-text-a text-[22px] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] font-bold">Fale um novo idioma com apenas 5 minutos por dia!</p>
       </div>
-      <div className="  w-full flex-wrap flex items-center justify-between py-2">
+      <div className="w-full flex-wrap lg:flex-nowrap flex items-center justify-between py-2">
         <div className="flex items-center justify-center">
           <Image src="/images/celular.png" alt="telefone" width={444} height={518} /></div>
-        <div className="flex items-center justify-center 2xl:w-[300px] xl:w-[380px] w-auto">
+        <div className="flex items-center justify-center 2xl:w-[300px] xl:w-[380px] lg:w-[350px] w-auto">
           <p className="text-text-a 2xl:text-[29px] xl:text-[25px] text-[17px]  leading-7 font-normal text-start mt-6">
             Clientes Itaú têm acesso a um desconto exclusivo no Mondly by Pearson. Agora você pode aprender inglês,espanhol, francês e muitos outros idiomas com lições rápidas, interativas e acessíveis.</p>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
             Assinar e começar agora! </Link></Button>
       </div>
 
-      <div className="w-full mb-5 mt-14 flex-wrap 2xl:flex-nowrap xl:flex-nowrap flex items-start justify-center gap-10">
+      <div className="w-full mb-5 mt-14 flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap flex items-start justify-center gap-10">
         {/* Imagem do homem */}
         <div className="flex-shrink-0">
           <Image
@@ -88,7 +88,7 @@ export default function Home() {
         {/* Div com os ícones e textos */}
         <div className="flex flex-col gap-6">
           {/* Bloco 1 */}
-          <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap flex 2xl:items-start items-center justify-center gap-4">
+          <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap flex 2xl:items-start items-center justify-center gap-4">
             <Image src="/images/icone1.png" alt="icone" width={86} height={87} />
             <p className="text-black text-lg font-normal leading-6">
               <strong>Aprendizado interativo e gamificado</strong>
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
 
           {/* Bloco 2 */}
-          <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap flex 2xl:items-start items-center justify-center gap-4">
+          <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap flex 2xl:items-start items-center justify-center gap-4">
             <Image src="/images/icone2.png" alt="icone" width={86} height={87} />
             <p className="text-black text-lg font-normal leading-6">
               <strong>Conteúdo personalizado</strong>
@@ -108,7 +108,7 @@ export default function Home() {
           </div>
 
           {/* Bloco 3 */}
-          <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap flex 2xl:items-start items-center justify-center gap-4">
+          <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap  flex 2xl:items-start items-center justify-center gap-4">
             <Image src="/images/icone3.png" alt="icone" width={86} height={87} />
             <p className="text-black text-lg font-normal leading-6">
               <strong>Flexibilidade total!</strong>
