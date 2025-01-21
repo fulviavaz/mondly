@@ -51,7 +51,7 @@ export default function Home() {
 
         <p className="text-text-a text-[22px] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] font-bold">Fale um novo idioma com apenas 5 minutos por dia!</p>
       </div>
-      <div className="w-full flex-wrap lg:flex-nowrap flex items-center justify-between py-2">
+      <div className="w-full flex-wrap lg:flex-nowrap flex items-center justify-between md:justify-center py-2">
         <div className="flex items-center justify-center">
           <Image src="/images/celular.png" alt="telefone" width={444} height={518} /></div>
         <div className="flex items-center justify-center 2xl:w-[300px] xl:w-[380px] lg:w-[350px] w-auto">
