@@ -6,14 +6,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between">
-      <nav className="flex items-center justify-between w-full bg-white py-4 2xl:px-20 px-10">
+    <main className="flex flex-col items-center justify-between 2xl:px-[340px]">
+      <nav className="flex items-center justify-between w-full bg-white py-4 md:px-10">
         <Image src="/images/logo-itau.png" alt="logo itau" width={79} height={73} />
         <Image src="/images/mondly-logo.png" alt="logo mondly" width={113} height={40}/>
       </nav>
       {/* hero */}
       
-      <div className="flex flex-col gap-5 items-center justify-between w-full bg-white py-1 2xl:px-30 xl:px-40 lg:px-30 px-10">
+      <div className="flex flex-col gap-5 items-center justify-between w-full bg-white py-1 md:px-10">
       <div>
   {/* Imagem para mobile */}
   <Image
@@ -37,7 +37,7 @@ export default function Home() {
             <p className="text-[22px] font-normal text-[#2B2B2B] ">Exclusivo para clientes Minhas Vantagens Itaú</p>
           <h1 className="text-black text-[28px] font-bold mt-2">Aprenda mais de 40 idiomas por menos de R$0,30 ao dia!</h1>        
         </div>  
-          <div className="2xl:px-48 w-full flex flex-col items-start justify-center">
+          <div className=" w-full flex flex-col items-start justify-center">
         
           <Button className=" bg-[#3D75DB] text-white text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 ">
             <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
@@ -46,15 +46,15 @@ export default function Home() {
         
         </div>
 
-      <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full  py-3">
+      <div className=" px-10 flex-wrap flex items-start justify-start w-full py-5">
       
-        <p className="text-text-a text-[22px] font-normal">Fale um novo idioma com apenas 5 minutos por dia!</p>
+        <p className="text-text-a text-[22px] 2xl:text-[28px] font-bold">Fale um novo idioma com apenas 5 minutos por dia!</p>
       </div>               
-      <div className="2xl:px-20 px-10 w-full flex flex-wrap items-center justify-center 2xl:gap-32 py-2">     
+      <div className=" px-10 w-full flex-wrap flex items-center justify-between py-2">     
         <div className="flex items-center justify-center">
           <Image src="/images/celular.png" alt="telefone" width={444} height={518} /></div>
-        <div className="flex items-center justify-center 2xl:w-[261px] xl:w-[261px] w-auto">
-          <p className="text-text-a text-[17px]  leading-7 font-normal text-start mt-6">
+        <div className="flex items-center justify-center 2xl:w-[300px] w-auto">
+          <p className="text-text-a 2xl:text-[29px] text-[17px]  leading-7 font-normal text-start mt-6">
             Clientes Itaú têm acesso a um desconto exclusivo no Mondly by Pearson. Agora você pode aprender inglês,espanhol, francês e muitos outros idiomas com lições rápidas, interativas e acessíveis.</p>
         </div>     
         
