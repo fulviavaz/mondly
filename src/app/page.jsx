@@ -13,15 +13,31 @@ export default function Home() {
       </nav>
       {/* hero */}
       
-      <div className="flex flex-wrap gap-5 items-center justify-between w-full bg-white py-1 2xl:px-30 xl:px-40 lg:px-30 px-10">
-        <div>
-          <Image src="/images/hero-mobile.png" alt="hero" width={328} height={437} />
-        </div>
-        <div className="2xl:w-[500px] xl:w-[500px] lg:w-[500px] flex flex-col">
+      <div className="flex flex-col gap-5 items-center justify-between w-full bg-white py-1 2xl:px-30 xl:px-40 lg:px-30 px-10">
+      <div>
+  {/* Imagem para mobile */}
+  <Image
+    src="/images/hero-mobile.png"
+    alt="hero"
+    width={328}
+    height={437}
+    className="block md:hidden" // Visível apenas em mobile
+  />
+  
+  {/* Imagem para desktop */}
+  <Image
+    src="/images/hero-desk.png"
+    alt="hero"
+    width={839}
+    height={405}
+    className="hidden md:flex" // Visível apenas em telas maiores que 'md'
+  />
+</div>
+        <div className="flex flex-col">
             <p className="text-[22px] font-normal text-[#2B2B2B] ">Exclusivo para clientes Minhas Vantagens Itaú</p>
-          <h1 className="text-black 2xl:text-4xl xl:text-4xl lg:text-4xl text-[28px] font-bold mt-2">Aprenda mais de 40 idiomas por menos de R$0,30 ao dia!</h1>        
+          <h1 className="text-black text-[28px] font-bold mt-2">Aprenda mais de 40 idiomas por menos de R$0,30 ao dia!</h1>        
         </div>  
-          <div className="2xl:px-20 w-full  flex flex-col items-start justify-center ">
+          <div className="2xl:px-48 w-full flex flex-col items-start justify-center">
         
           <Button className=" bg-[#3D75DB] text-white text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 ">
             <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
