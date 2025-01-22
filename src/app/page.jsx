@@ -8,8 +8,8 @@ export default function Home() {
     <><main className="flex flex-col items-center justify-between px-10 xl:px-56 2xl:px-[350px] lg:px-24 max-w-[1538px] mx-auto">
 
       <nav className="flex items-center justify-between w-full bg-white py-4">
-        <Image src="/images/logo-itau.png" alt="logo itau" width={79} height={73} />
-        <Image src="/images/mondly-logo.png" alt="logo mondly" width={113} height={40} />
+        <Image src="/itauagencias/minhasvantagens/mondly/images/logo-itau.png" alt="logo itau" width={79} height={73} />
+        <Image src="/itauagencias/minhasvantagens/mondly/images/mondly-logo.png" alt="logo mondly" width={113} height={40} />
       </nav>
       {/* hero */}
 
@@ -17,7 +17,7 @@ export default function Home() {
         <div>
           {/* Imagem para mobile */}
           <Image
-            src="/images/hero-mobile.png"
+            src="/itauagencias/minhasvantagens/mondly/images/hero-mobile.png"
             alt="hero"
             width={328}
             height={437}
@@ -26,7 +26,7 @@ export default function Home() {
 
           {/* Imagem para desktop */}
           <Image
-            src="/images/hero-desk.png"
+            src="/itauagencias/minhasvantagens/mondly/images/hero-desk.png"
             alt="hero"
             width={839}
             height={405}
@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div className="w-full flex-wrap lg:flex-nowrap flex items-center justify-between md:justify-center py-2">
         <div className="flex items-center justify-center">
-          <Image src="/images/celular.png" alt="telefone" width={444} height={518} /></div>
+          <Image src="/itauagencias/minhasvantagens/mondly/images/celular.png" alt="telefone" width={444} height={518} /></div>
         <div className="flex items-center justify-center 2xl:w-[300px] xl:w-[380px] lg:w-[350px] w-auto">
           <p className="text-text-a 2xl:text-[29px] xl:text-[25px] text-[17px]  leading-7 font-normal text-start mt-6">
             Clientes Itaú têm acesso a um desconto exclusivo no Mondly by Pearson. Agora você pode aprender inglês,espanhol, francês e muitos outros idiomas com lições rápidas, interativas e acessíveis.</p>
@@ -76,7 +76,7 @@ export default function Home() {
         {/* Imagem do homem */}
         <div className="flex-shrink-0">
           <Image
-            src="/images/homem.png"
+            src="/itauagencias/minhasvantagens/mondly/images/homem.png"
             alt="homem"
             width={300} // Aumente a largura
             height={300}
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="flex flex-col gap-6">
           {/* Bloco 1 */}
           <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap flex 2xl:items-start items-center justify-center gap-4">
-            <Image src="/images/icone1.png" alt="icone" width={86} height={87} />
+            <Image src="/itauagencias/minhasvantagens/mondly/images/icone1.png" alt="icone" width={86} height={87} />
             <p className="text-black text-lg font-normal leading-6">
               <strong>Aprendizado interativo e gamificado</strong>
               <br />
@@ -98,7 +98,7 @@ export default function Home() {
 
           {/* Bloco 2 */}
           <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap flex 2xl:items-start items-center justify-center gap-4">
-            <Image src="/images/icone2.png" alt="icone" width={86} height={87} />
+            <Image src="/itauagencias/minhasvantagens/mondly/images/icone2.png" alt="icone" width={86} height={87} />
             <p className="text-black text-lg font-normal leading-6">
               <strong>Conteúdo personalizado</strong>
               <br />
@@ -108,7 +108,7 @@ export default function Home() {
 
           {/* Bloco 3 */}
           <div className="flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap  flex 2xl:items-start items-center justify-center gap-4">
-            <Image src="/images/icone3.png" alt="icone" width={86} height={87} />
+            <Image src="/itauagencias/minhasvantagens/mondly/images/icone3.png" alt="icone" width={86} height={87} />
             <p className="text-black text-lg font-normal leading-6">
               <strong>Flexibilidade total!</strong>
               <br />
@@ -132,15 +132,15 @@ export default function Home() {
       <div className="w-full mb-4 flex flex-wrap items-center justify-center gap-4">
         {/* Imagens para mobile */}
         <div className="block md:hidden">
-          <Image src="/images/video-mobile.png" alt="video" width={328} height={437} />
+          <Image src="/itauagencias/minhasvantagens/mondly/images/video-mobile.png" alt="video" width={328} height={437} />
         </div>
         <div className="block md:hidden">
-          <Image src="/images/bandeiras-mobile.png" alt="bandeiras" width={313} height={320} />
+          <Image src="/itauagencias/minhasvantagens/mondly/images/bandeiras-mobile.png" alt="bandeiras" width={313} height={320} />
         </div>
 
         {/* Imagem para desktop */}
         <div className="hidden md:block">
-          <Image src="/images/bandeiras-desk.png" alt="video-desktop" width={830} height={464} />
+          <Image src="/itauagencias/minhasvantagens/mondly/images/bandeiras-desk.png" alt="video-desktop" width={830} height={464} />
         </div>
       </div>
 
@@ -157,13 +157,13 @@ export default function Home() {
 
 
       </div>
-      <div className="flex justify-center items-center"><Image src="/images/tels-mobile.png" alt="bandeiras" width={293} height={265} /></div>
+      <div className="flex justify-center items-center"><Image src="/itauagencias/minhasvantagens/mondly/images/tels-mobile.png" alt="bandeiras" width={293} height={265} /></div>
 
 
 
     </main><footer className="flex-wrap flex  items-center justify-center gap-4 w-full bg-black py-8">
         <p className="text-white text-sm ">Powered by</p>
-        <Image src="/images/indico.png" alt="logo indico" width={81} height={25} />
+        <Image src="/itauagencias/minhasvantagens/mondly/images/indico.png" alt="logo indico" width={81} height={25} />
         <p className="text-white text-[8px] 2xl:text-xs text-center">CAOS SISTEMAS DINÂMICOS E COMPLEXOS LTDA - Brasil - CNPJ 05.934.733/0001-17</p>
       </footer></>
     
