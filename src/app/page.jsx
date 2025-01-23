@@ -55,7 +55,7 @@ export default function Home() {
           <Image src="/itauagencias/minhasvantagens/mondly/images/celular.png" alt="telefone" width={444} height={518} /></div>
         <div className="flex items-center justify-center 2xl:w-[300px] xl:w-[380px] lg:w-[350px] w-auto">
           <p className="text-text-a 2xl:text-[29px] xl:text-[25px] text-[17px]  leading-7 font-normal text-start mt-6">
-            Clientes Itaú têm acesso a um desconto exclusivo no Mondly by Pearson. Agora você pode aprender inglês,espanhol, francês e muitos outros idiomas com lições rápidas, interativas e acessíveis.</p>
+            Clientes Minhas Vantagens Itaú têm acesso a um desconto exclusivo no Mondly by Pearson. Agora você pode aprender inglês,espanhol, francês e muitos outros idiomas com lições rápidas, interativas e acessíveis.</p>
         </div>
 
       </div>
