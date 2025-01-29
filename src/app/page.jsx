@@ -37,24 +37,30 @@ export default function Home() {
           <p className="text-[22px] font-normal text-[#2B2B2B] ">Exclusivo para clientes Minhas Vantagens Itaú</p>
           <h1 className="text-black text-[28px] font-bold mt-2">Aprenda mais de 40 idiomas por menos de R$0,30 ao dia!</h1>
         </div>
-        <div className=" w-full flex items-start justify-start gap-5">
-
-      <Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b" target="_blank">
-    <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
-    <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+      <div className="w-full flex flex-wrap items-start justify-start gap-5">
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
+      <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+    </Button>
   </Link>
-</Button>
 
-<Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
-    <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
-    <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
+      <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+    </Button>
   </Link>
-</Button>
+</div>
 
-
-        </div>
 
       </div>
 
@@ -79,25 +85,29 @@ export default function Home() {
           entender.<br /><br />
           Com o Mondly by Pearson, você aprende as frases mais importantes para se comunicar em aeroportos, hotéis, restaurantes e muito mais.</p>
 <h1 className="text-black text-[28px] font-bold mt-6">Assine e comece agora!</h1>
-        <div className=" w-full flex items-start justify-start gap-5 mt-8">
-          
-
-        
-            <Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b" target="_blank">
-    <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
-    <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+      <div className="w-full flex flex-wrap items-start justify-start gap-5 mt-5">
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
+      <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+    </Button>
   </Link>
-</Button>
 
-<Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
-    <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
-    <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
+      <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+    </Button>
   </Link>
-</Button>
-
-        </div>
+</div>
       </div>
 
       <div className="w-full mb-5 mt-14 flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap flex items-start justify-center gap-10">
@@ -151,25 +161,29 @@ export default function Home() {
       <div className="w-full mb-14 flex flex-col items-start justify-center">
 
       <h1 className="text-black text-[28px] font-bold mt-6">Quero assinar o Mondly!</h1>
-        <div className=" w-full flex items-start justify-start gap-5 mt-8">
-          
-
-          
-        <Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b" target="_blank">
-    <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
-    <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+    <div className="w-full flex flex-wrap items-start justify-start gap-5 mt-5">
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
+      <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+    </Button>
   </Link>
-</Button>
 
-<Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
-    <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
-    <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
+      <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+    </Button>
   </Link>
-</Button>
-
-        </div>
+</div>
       </div>
 
       <div className="w-full mb-4 flex flex-wrap items-center justify-center gap-4">
@@ -197,24 +211,29 @@ export default function Home() {
       <div className=" w-full mb-14 flex flex-col items-start justify-center">
 
       <h1 className="text-black text-[28px] font-bold mt-6">Assine e comece agora!</h1>
-        <div className=" w-full flex items-start justify-start gap-5 mt-8">         
-
-          
-        <Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b" target="_blank">
-    <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
-    <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+        <div className="w-full flex flex-wrap items-start justify-start gap-5 mt-5">
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=33691%24jTZga1YC7Sfrcc-iHdTo4oywTzfdk01D&PRODS=46420733&QTY=1&PRICES46420733%5BBRL%5D=29.90&PHASH=sha3-256.e360c9adad598c7c75eeec7f6f56e3b3bf03b1209fa0f64769430dfa2466b84b"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Mensal - R$29,90</span>
+      <span className="block sm:hidden">Assinatura Mensal <br /> R$29,90</span>
+    </Button>
   </Link>
-</Button>
 
-<Button className="bg-[#3D75DB] text-white text-sm font-bold w-full sm:w-1/2 h-12 text-center">
-  <Link href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72" target="_blank">
-    <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
-    <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+  <Link
+    className="w-full sm:w-auto h-12 text-left"
+    href="https://shop.mondly.com/order/checkout.php?CLEAN_CART=1&CURRENCY=BRL&CART=1&CARD=2&SHORT_FORM=1&ADDITIONAL_B2B_COMPANY_REF=32525%24NSJ8faiZnz4WlzhAQtqN-6zo8jWrqGIs&PRODS=46453293&QTY=1&PRICES46453293%5BBRL%5D=107.28&PHASH=sha3-256.87ab4f89f614a2121f6c524dfa49a3fc5db6c69263b9f3118554ef06583b7b72"
+    target="_blank"
+  >
+    <Button className="bg-[#3D75DB] text-white text-sm font-bold px-6 py-6 w-full sm:w-auto">
+      <span className="hidden sm:inline">Assinatura Anual - R$107,20</span>
+      <span className="block sm:hidden">Assinatura Anual <br /> R$107,20</span>
+    </Button>
   </Link>
-</Button>
-
-        </div>
+</div>
       </div>
 
 
